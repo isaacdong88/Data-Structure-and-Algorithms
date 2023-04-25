@@ -15,3 +15,4 @@ console.log(linearSearch([0, 1, 1, 2, 3], 4));
 
 //Big O
 //O(n) as input increase so does the time also increase
+//Best case O(1) worst case O(n)
