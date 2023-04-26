@@ -22,3 +22,5 @@ const binarySearch = (arr, value) => {
 console.log(binarySearch([1, 5, 8, 10, 78, 99], 99));
 console.log(binarySearch([1, 5, 8, 10, 78, 99], 1));
 console.log(binarySearch([1, 5, 8, 10, 78, 99], 39));
+
+//Big(O) is O(log n) best case is O(1)

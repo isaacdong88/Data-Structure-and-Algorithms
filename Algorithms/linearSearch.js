@@ -9,7 +9,7 @@ const linearSearch = (arr, value) => {
   return -1;
 };
 
-console.log(linearSearch([0, 1, 1, 2, 3], 4));
+console.log(linearSearch([0, 1, 1, 2, 3], 1));
 
 //This is indexOf, findIndex, includes behind the scene is doing
 
