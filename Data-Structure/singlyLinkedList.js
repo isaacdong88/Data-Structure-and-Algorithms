@@ -111,6 +111,22 @@ class SinglyLinkedList {
     this.length++;
     return true;
   }
+  remove(pos) {
+    if (pos < 0 || pos >= this.length) return false;
+    if (pos === 0) {
+      this.shift();
+      return true;
+    }
+    if (pos === this.length - 1) {
+      this.pop();
+      return true;
+    }
+    let prev = this.get(pos - 1);
+    let removed = prev.next;
+    prev.next = removed.bext;
+    this.length--;
+    return removed;
+  }
 }
 
 let newList = new SinglyLinkedList();
